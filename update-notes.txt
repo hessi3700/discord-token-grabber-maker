@@ -1,6 +1,9 @@
--BUG FIXES
+-on the updated version output folder will makes automatically after convert
 
--better token grabber
+-token logger updated to the better one and it grabs ip and phone and more like that
+
+-there is no data folder any more
 
 -easy working
 
+-BUG FIXES
